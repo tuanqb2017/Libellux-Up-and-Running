@@ -369,7 +369,7 @@ Group=gvm
 RuntimeDirectory=gsad
 RuntimeDirectoryMode=2775
 PIDFile=/run/gsad/gsad.pid
-ExecStart=/usr/local/sbin/gsad --listen=192.168.0.1 --port=9392
+ExecStart=/usr/local/sbin/gsad --listen=172.16.2.41 --port=9392
 Restart=always
 TimeoutStopSec=10
 
